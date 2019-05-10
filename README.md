@@ -1,2 +1,1 @@
-# ogc-api
-OGC API building blocks
+# OGC API building blocks
