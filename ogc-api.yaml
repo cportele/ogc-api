@@ -83,6 +83,10 @@ components:
           type: string
           nullable: true
           example: en
+        title:
+          type: string
+          nullable: true
+          example: the link to the next features 
     req-classes:
       required:
         - conformsTo
