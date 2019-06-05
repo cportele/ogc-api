@@ -1028,8 +1028,8 @@ components:
   headers: 
     Location:
       schema:
-          type: string
-          format: uri
+        type: string
+        format: uri
       description: |-
         URI of the new resource.
     Link:
