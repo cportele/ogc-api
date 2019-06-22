@@ -131,8 +131,8 @@ components:
           type: array
           nullable: true
           items:
-            $ref: '#/components/schemas/collectionInfo'
-    collectionInfo:
+            $ref: '#/components/schemas/collection'
+    collection:
       type: object
       required:
         - id
@@ -1002,13 +1002,13 @@ components:
         text/html:
           schema:
             type: string
-    CollectionInfo:
+    Collection:
       description: |-
         Metadata about the feature collection with id `collectionId`.
       content:
         application/json:
           schema:
-            $ref: '#/components/schemas/collectionInfo'
+            $ref: '#/components/schemas/collection'
         text/html:
           schema:
             type: string
