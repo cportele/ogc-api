@@ -302,6 +302,11 @@ components:
           nullable: true
           description: |-
             the property name for use in expressions
+        title:
+          type: string
+          nullable: true
+          description: |-
+            the title of the property for presentation to a human user
         description:
           type: string
           nullable: true
